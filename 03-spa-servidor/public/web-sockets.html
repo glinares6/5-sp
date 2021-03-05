@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Sockets</title>
+
+</head>
+<body>
+    <button id="btnConnect">conectar</button>
+    <button id="btnDisconnect">desconectar</button>
+    
+
+    <label for="txtMsg" >Nombre</label>
+    <input type="text" id="txtName">
+    <label for="txtMsg" >Mesagge</label>
+    <input type="text" id="txtMsg">
+    <button id="btnSend">Enviar</button>
+
+    <label for="chat"></label>
+    <div id="chat"></div>
+
+    <!-- ciclo de vida de un web-sockets(objeto,bidireccional -tiempo real)
+        protocolo ws
+    conexiòn 
+    estado
+    en evio de mensajes 
+    recepciòn de mensajes 
+    cierre 
+    wss-> security web sockets
+
+    metodps
+    onOpen =>cuando un web-sockets se conecta que deberia hacer
+    onError-> si ocurre algo , se puede controlar el web-sockets
+    send()-> enviar la informaciòn al servivod
+    close()-> cuando se acaba la conexion con el web-socketsS        
+    PARA MAYOR INFORMACIÓN VISITAR EL LINK
+    https://www.html5rocks.com/es/tutorials/websockets/basics/
+-->
+    <script src="js/web-sockets.js"></script>
+</body>
+</html>

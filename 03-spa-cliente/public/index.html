@@ -1,0 +1,179 @@
+<!-- NO COPIAR EL CODIGO YA ECHO , PUEDE GENERAR ERROR AL NO ENCONTRAR ALGUNA VARIABLE QUE SE AGREGAS -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>EDChat</title>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+<script src="js/router.js"></script>
+</head>
+<body class="container">
+    <!-- <aside class="sidebar-container">
+        <div class="brand">
+            <img src="https://api.ed.team/public-files/bloginlineimg/5b557c57-8969-45ca-b880-a05441ca353b.png" alt="" class="logo">
+        </div>
+        <div class="users">
+            <h2>Usuarios conectados</h2>
+            <div class="user">
+                <span class="user--name">Beto Quiroga</span>
+                <span class="user--status">En linea</span>
+            </div>
+            <div class="user">
+                <span class="user--name">Alexys Lozada</span>
+                <span class="user--status">Ausente</span>
+            </div>
+            <div class="user">
+                <span class="user--name">Alvaro Felipe</span>
+                <span class="user--status">Ausente</span>
+            </div>
+            <div class="user">
+                <span class="user--name">Jhon Mircha</span>
+                <span class="user--status">En linea</span>
+            </div>
+
+        </div>
+        <div class="account">
+            <a href="#">Cerrar Sesión</a>
+        </div>
+    </aside>
+    <main class="main-container">
+        <div class="chat-details">
+            <h1 class="title">Canal Publico</h1>
+            <span class="sub-title">Sala Genetal de Comunicación</span>
+        </div>
+        <div class="messages-container" id="messages-container">
+ -->
+
+<!-- 
+
+       <div class="message">
+                <div class="message--avatar">
+                    <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=retro&f=y" alt="">
+                </div>
+                <div class="message-info">
+                    <div class="message-user">
+                        <span class="message--user_name">Bero Quiroga</span>
+                        <div class="message--user_time">17:10</div>
+                    </div>
+                    <div class="message-content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ad, voluptatum ipsam ab neque magni pariatur veniam enim consequuntur in, ducimus laudantium architecto laboriosam earum ut aut, iusto obcaecati! Corporis.
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message--avatar">
+                    <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=retro&f=y" alt="">
+                </div>
+                <div class="message-info">
+                    <div class="message-user">
+                        <span class="message--user_name">Bero Quiroga</span>
+                        <div class="message--user_time">17:20</div>
+                    </div>
+                    <div class="message-content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ad, voluptatum ipsam ab neque magni pariatur veniam enim consequuntur in, ducimus laudantium architecto laboriosam earum ut aut, iusto obcaecati! Corporis.
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="message--avatar">
+                    <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=retro&f=y" alt="">
+                </div>
+                <div class="message-info">
+                    <div class="message-user">
+                        <span class="message--user_name">Bero Quiroga</span>
+                        <div class="message--user_time">17:20</div>
+                    </div>
+                    <div class="message-content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ad, voluptatum ipsam ab neque magni pariatur veniam enim consequuntur in, ducimus laudantium architecto laboriosam earum ut aut, iusto obcaecati! Corporis.
+                    </div>
+                </div>
+
+            </div>
+  -->
+        
+        
+<!-- 
+
+        </div> 
+        <div class="form-container" >
+            <form class="message-form" id="message-form" >
+                <input  class="message-form--text" id="messagetext" type="text"  placeholder="Ingrese sus mensaje" name="messageText">
+                <button class="message-form--submit" id="messageformsubmit"  type="submit" >Enviar</button>
+            </form>
+        </div>
+    </main> 
+
+-->
+
+<!-- 
+    
+    mas información 
+        spa - client -> https://github.com/alexyslozada/edteam-spa-client
+        spa- servidor -> https://github.com/alexyslozada/edteam-spa
+        para la logica del backend se puede usar php go java rubty phyton ,etc
+        registrar los usuarois 
+        revisar la documentación de JWT PARA LA AUTENTICACION POR TOKEN de usuarios
+
+    -->
+    
+
+</body>
+</html>
+
+
+
+
+
+ <!-- CODIGO MODIFICADO -->
+<!-- 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>web-sockets-II</title>
+     <style>
+         canvas{
+             width: 800px !important;
+             height: 600px !important;
+         }
+     </style>
+ </head>
+ <body>
+     <div id="systemMessage"></div>
+ 
+     <label for="usrName">Usuario</label>
+     <input type="text" id="usrName">
+     <label for="password">clave</label>
+     <input type="password" id="password">
+     <button id="btnLogin">Login</button>
+ 
+     <label for="txtmsg">Message</label>
+     <input type="text" id="txtmsg">
+     <button id="btnSendMessage">Enviar</button>
+ 
+     <label for="product" >Producto</label>
+     <select name="product" id="product">
+         <option value="0">zapatos</option>
+         <option value="1">Camisa</option>
+         <option value="2">Billeteras</option>
+     </select>
+     <label for="quantity">Cantidad</label>
+     <input type="number" id="quantity">
+     <button id="btnSale">Vender</button>
+ 
+     <div id="content"></div>
+     <canvas id="myChart" width="400" height="400"></canvas> -->
+     <!-- 
+         charts.js-> una heramienta para hacer graficos
+     
+     -->
+<!--      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+     <script src="js/script.js"></script>
+ </body>
+ </html> -->

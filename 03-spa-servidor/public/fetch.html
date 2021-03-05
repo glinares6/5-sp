@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>metodo fetch</h1>
+    <!-- 
+    fetch-> variable nativa que incorporta el XMLHTTPRequest
+                sirve para hacer el llamado del ajax
+
+    Para agregar nuevo valores ,cambiara metodo a fetch visitar este link
+    https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch
+    -->
+    <form action="#">
+        <input type="text" id="name">
+        <input type="text" id="lastName">
+        <input type="number" id="age">
+        <input type="checkbox" id="active">
+    </form>
+    <button id="btnenv">enviar post fetch</button>
+    <button id="btn">Consultar Comic</button>
+    <div id="myContent"></div>
+    <script src="js/fetch.js"></script>
+</body>
+</html>

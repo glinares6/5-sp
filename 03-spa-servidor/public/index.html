@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-sockets-II</title>
+    <style>
+        canvas{
+            width: 800px !important;
+            height: 600px !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="systemMessage"></div>
+
+    <label for="usrName">Usuario</label>
+    <input type="text" id="usrName">
+    <label for="password">clave</label>
+    <input type="password" id="password">
+    <button id="btnLogin">Login</button>
+
+    <label for="txtmsg">Message</label>
+    <input type="text" id="txtmsg">
+    <button id="btnSendMessage">Enviar</button>
+
+    <label for="product" >Producto</label>
+    <select name="product" id="product">
+        <option value="0">zapatos</option>
+        <option value="1">Camisa</option>
+        <option value="2">Billeteras</option>
+    </select>
+    <label for="quantity">Cantidad</label>
+    <input type="number" id="quantity">
+    <button id="btnSale">Vender</button>
+
+    <div id="content"></div>
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <!-- 
+        charts.js-> una heramienta para hacer graficos
+    
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
